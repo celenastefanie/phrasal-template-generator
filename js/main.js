@@ -1,9 +1,34 @@
-var madlib = alert('Let’s make a story together!');
+var colour;
 
-var lib1 = prompt('A colour (orange, indigo, etc.)');
+var creature;
 
-var lib2 = prompt('A creature (dragon, moth, etc.)');
+var adjective;
 
-var lib3 = prompt('An adjective (beautiful, super, etc.)');
+var verb;
 
-var lib4 = prompt('Which story would you like?\n a) Snacking\n b) Escaping\n c) Winning\n Enter the letter below:');
+var story;
+
+
+alert('Let’s make a story together!');
+
+colour = prompt('A colour (orange, indigo, etc.)');
+
+creature = prompt('A creature (dragon, moth, etc.)');
+
+adjective = prompt('An adjective (beautiful, super, etc.)');
+
+verb = prompt('A past tense verb (ran, burped, etc.)');
+
+story = prompt('Which story would you like?\n a) Snacking\n b) Escaping\n c) Winning\n Enter the letter below:');
+
+if (story = 'a') {
+  document.write('After snacking on' + ' ' + (adjective) + ' ' + 'treats, the' + ' ' + (colour) + ' ' + 'bellied' + ' ' + (creature) + ' ' + (verb) + ' ' + 'for hours.')
+}
+
+if (story = 'b') {
+
+}
+
+if (story = 'c') {
+
+}
