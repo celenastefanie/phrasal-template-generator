@@ -8,7 +8,6 @@ var verb;
 
 var story;
 
-
 alert('Let’s make a story together!');
 
 colour = prompt('A colour (orange, indigo, etc.)');
