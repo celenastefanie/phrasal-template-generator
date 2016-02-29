@@ -6,4 +6,4 @@ var lib2 = prompt('A creature (dragon, moth, etc.)');
 
 var lib3 = prompt('An adjective (beautiful, super, etc.)');
 
-var lib4 = prompt('Which story would you like?' + <br> + 'a) Snacking' + 'b) Escaping' + 'c) Winning' + 'Enter the letter below:');
+var lib4 = prompt('Which story would you like?\n a) Snacking\n b) Escaping\n c) Winning\n Enter the letter below:');
